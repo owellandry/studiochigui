@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from '@/assets/background.png';
+import Background from '@/assets/background.webp';
 
 const Backgroundimage: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
