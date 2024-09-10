@@ -11,9 +11,9 @@ export default function CookiePage() {
     <div className="min-h-screen w-full h-full flex flex-col bg-gray-900 text-gray-100 transition-colors duration-300">
       {/* Breadcrumb Navigation */}
       <div className="py-8 px-7 w-full">
-        <Breadcrumbs separator=">" className="text-gray-300">
+        <Breadcrumbs separator=">" className="text-gray-900">
           <BreadcrumbItem startContent={<Link href="/"><RiHomeSmile2Line className="text-gray-300 w-6 h-6" /></Link>}>
-            <Link href="/" className="hover:text-gray-200 transition duration-200">Inicio</Link>
+            <Link href="/" className="text-gray-300 hover:text-gray-200 transition duration-200">Inicio</Link>
           </BreadcrumbItem>
           <BreadcrumbItem startContent={<MdCookie className="text-gray-300 w-6 h-6" />}>
             <span className="font-semibold text-gray-300">Política de Cookies</span>
@@ -23,7 +23,7 @@ export default function CookiePage() {
 
       {/* Main Content - Full Width & Height */}
       <div className="flex justify-center items-center flex-grow">
-        <div className="bg-gray-800 shadow-2xl rounded-2xl max-w-3xl w-full p-8 m-6 transform transition hover:scale-105 duration-500 ease-in-out">
+        <div className="bg-gray-800 shadow-2xl rounded-2xl w-full p-8 m-6 transform transition hover:scale-102 duration-500 ease-in-out">
           <h1 className="text-5xl font-extrabold text-gray-100 mb-6 text-center">Política de Cookies</h1>
           <p className="text-lg text-gray-300 mb-8 text-center">
             Aquí explicamos qué son las cookies, cómo las utilizamos en nuestro sitio, y cómo puedes gestionarlas.
